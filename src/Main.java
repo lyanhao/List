@@ -7,6 +7,7 @@ public class Main {
         list.pushFront(20);
         list.pushFront(30);
         list.insert(3, 5);
+        list.pushFront(50);
 
         Iterator it = list.iterator();
         while (it.hasNext()) {
